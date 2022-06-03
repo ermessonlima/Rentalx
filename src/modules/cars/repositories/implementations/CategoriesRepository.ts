@@ -13,7 +13,7 @@ class CategoriesRepository implements ICategoriesRepository {
 
     private static INSTANCE: CategoriesRepository;
 
-    private constructor() {
+    constructor() {
         this.repository = getRepository(Category);
     }
 
